@@ -1,0 +1,115 @@
+/* css reset */
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global style */
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex-wrapper {
+    display: flex;
+    max-width: 90%;
+}
+
+/* header */
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+}
+
+header .flex-wrapper {
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+header nav ul li {
+    display:inline-block;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+/* banner */
+.banner img {
+    width: 100%;
+    height: 125vh;
+    object-fit: cover;
+}
+
+.banner .banner-text {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding-top: 200px;
+    padding-bottom: 524px;
+    left: 0px;
+    right: 0;
+    top: 58px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    font-size: 72px;
+}
+
+/* product */
+.product {
+    margin-top:70px;
+    padding-left: 50px;
+}
+
+.product .product-title {
+    margin-bottom: 20px
+}
+
+.product .daftar-product {
+    width: 250px;
+    border: 1px solid black;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+}
+
+.product .daftar-product .product-image img {
+    width: 100%;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+}
+
+
+.product .daftar-product h3 {
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 15px;
+}
+
+.product .daftar-product p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.product .daftar-product button {
+    border: none;
+    padding: 10px 20px;
+    margin-left: 90px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
